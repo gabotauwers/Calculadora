@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>Calculadora Android</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <div class="calculadora-grilla">
+        <div class="output">
+            <center>
+                <label for="result">Subtotal</label>
+            </center>
+            <input class="display" type="text" id="result" placeholder="0" readonly><br><br>
+            <center>
+                <label for="porcentaje">Porcentaje</label>
+                <input type="number" id="porcentaje" maxlength="3" value="5">
+                <label for="porcentaje">%</label><br><br><br>
+            </center>
+            <center>
+                <label for="total">Total</label>
+            <input class="display" type="text" id="total" readonly placeholder="0.00"><br><br>
+            </center>
+        </div>
+        <button name="data-number">7</button>
+        <button name="data-number">8</button>
+        <button name="data-number">9</button>
+        <button name="data-delete" id="c">C</button>
+        <button name="data-number">4</button>
+        <button name="data-number">5</button>
+        <button name="data-number">6</button>
+        <button name="data-opera" id="tecla">+</button>
+        <button name="data-number">1</button>
+        <button name="data-number">2</button>
+        <button name="data-number">3</button>
+        <button name="data-opera" id="tecla">-</button>
+        <button name="data-number">0</button>
+        <button name="data-number">.</button>
+        <button name="data-igual">=</button>
+        <button name="data"></button>
+
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
